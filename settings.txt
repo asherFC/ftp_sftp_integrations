@@ -1,0 +1,26 @@
+Izzy SFTP
+
+File transfer protocol = SFTP-5
+Cryptographic protocol = SSH-2
+SSH implementation = RebexSSH_5.0.8062.0
+Encryption algorithm = AES-256 SDCTR (AES-NI accelerated)
+Compression = No
+------------------------------------------------------------
+Server host key fingerprints
+SHA-256 = ssh-ed25519 255 fdaqJQnWHzaqkAHXUoa28J1ted7VJ+pKlfZ/LrKKyZI=
+MD5 = ssh-ed25519 255 87:d9:71:e2:bf:9a:ec:8d:ba:f1:4e:a8:46:fb:86:f9
+------------------------------------------------------------
+Can change permissions = Yes
+Can change owner/group = Yes
+Can execute arbitrary command = No
+Can create symbolic/hard link = Yes/No
+Can lookup user groups = No
+Can duplicate remote files = No
+Can check available space = No
+Can calculate file checksum = Yes
+Native text (ASCII) mode transfers = Yes
+------------------------------------------------------------
+Additional information
+The server supports these SFTP extensions:
+  newline="\r\n"
+  supported=0x000001BD000000000000002F00000003000100000000000A636865636B2D66696C65
