@@ -24,3 +24,21 @@ Additional information
 The server supports these SFTP extensions:
   newline="\r\n"
   supported=0x000001BD000000000000002F00000003000100000000000A636865636B2D66696C65
+
+  // Set up session options
+SessionOptions sessionOptions = new SessionOptions
+{
+    Protocol = Protocol.Sftp,
+    HostName = "irftpsrvr.ddns.net",
+    UserName = "focususr",
+    Password = "omerogYnO",
+    SshHostKeyFingerprint = "ssh-ed25519 255 fdaqJQnWHzaqkAHXUoa28J1ted7VJ+pKlfZ/LrKKyZI=",
+};
+
+using (Session session = new Session())
+{
+    // Connect
+    session.Open(sessionOptions);
+
+    // Your code
+}
